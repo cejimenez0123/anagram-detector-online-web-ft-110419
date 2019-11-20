@@ -8,7 +8,7 @@ def initialize(word)
   @anagram = anagram
 end
   def match(word)
-    word_array=@word.split(/a-z/)
+    word_array=@word.split("")
     binding.pry
   end
 end
