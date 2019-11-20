@@ -10,8 +10,8 @@ end
   def match(anagram)
     word_array=@word.split("")
     found = anagram.find do |ana|
-      ana.split("").sort==word_array
-        ana
+     ana.split("").sort==word_array? ana:[]
+      
     end
     found
   end
