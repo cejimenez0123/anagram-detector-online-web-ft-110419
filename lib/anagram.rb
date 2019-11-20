@@ -9,7 +9,7 @@ def initialize(word)
 end
   def match(word)
     word_array=@word.split("")
-    word_array.each do |letter|
+    word_array.sort.each do |letter|
 
     end
     binding.pry
