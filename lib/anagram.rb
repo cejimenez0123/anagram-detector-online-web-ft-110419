@@ -12,7 +12,7 @@ end
     found = anagram.find do |ana|
      if ana.split("").sort==word_array
         ana
-      else 
+      else
         []
     end
     found
