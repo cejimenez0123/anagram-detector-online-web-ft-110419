@@ -12,6 +12,6 @@ end
     word_array.sort.each do |letter|
 
     end
-    
+
   end
 end
