@@ -9,7 +9,8 @@ def initialize(word)
 end
   def match(anagram)
     word_array=@word.split("")
-    anagram.find do |letter|
+    anagram.find do |ana|
+      ana.split("").sort==word_array
 
     end
 
