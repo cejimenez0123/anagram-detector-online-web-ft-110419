@@ -8,6 +8,6 @@ def initialize(word)
   @anagram = anagram
 end
   def match(word,anagram)
-    @word.split(/a-z/)
+    word_array=@word.split(/a-z/)
   end
 end
