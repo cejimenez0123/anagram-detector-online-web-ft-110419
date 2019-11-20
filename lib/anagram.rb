@@ -7,9 +7,9 @@ def initialize(word)
   @word = word
   @anagram = anagram
 end
-  def match(word)
+  def match(anagram)
     word_array=@word.split("")
-    word_array.sort.each do |letter|
+    anagram.find do |letter|
 
     end
 
