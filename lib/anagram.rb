@@ -11,7 +11,7 @@ end
     word_array=@word.split("")
     found = anagram.find do |ana|
       ana.split("").sort==word_array
-        binding.pry
+        ana
     end
     found
   end
